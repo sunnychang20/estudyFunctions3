@@ -16,6 +16,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val st = EstudyFunctions1().tt
+        val dd = aa()
         setContent {
             EstudyFunctions1Theme {
                 // A surface container using the 'background' color from the theme
@@ -27,6 +28,10 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+    }
+
+    fun aa(){
 
     }
 }
