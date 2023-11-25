@@ -6,6 +6,8 @@ plugins {
     id("com.android.library") version "8.1.4" apply false
 }
 
+
+
 publishing {
     publications {
         create("maven_public", MavenPublication::class) {
