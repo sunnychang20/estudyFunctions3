@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -49,4 +50,15 @@ java {
     sourceCompatibility = JavaVersion.VERSION_17            // << --- ADD This
     targetCompatibility = JavaVersion.VERSION_17
 }
+
+publishing {
+    publications {
+        create("maven_public", MavenPublication::class) {
+            groupId = "com.github.jitpack"
+            artifactId = "com.easyapp.estudyfunctions1"
+            version = "1.1"
+        }
+    }
+}
+
 
