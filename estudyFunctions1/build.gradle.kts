@@ -55,8 +55,8 @@ publishing {
     publications {
         create("maven_public", MavenPublication::class) {
             groupId = "com.github.jitpack"
-            artifactId = "com.easyapp.estudyfunctions1"
-            version = "1.1"
+            artifactId = "com.easyapp.estudyfunctions3"
+            version = "9"
         }
     }
 }

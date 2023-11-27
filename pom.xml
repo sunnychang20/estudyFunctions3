@@ -4,8 +4,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.sunnychang20</groupId> <!-- com.github.geek-atif-->
-    <artifactId>com.easyapp.estudyfunctions1</artifactId> <!-- com-atifqamar-customtoast -->
-    <version>8</version> <!-- 1.0 -->
+    <artifactId>com.easyapp.estudyfunctions3</artifactId> <!-- com-atifqamar-customtoast -->
+    <version>9</version> <!-- 1.0 -->
     <packaging>pom</packaging>
     <description>First version release</description>
 </project>
